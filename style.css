@@ -6,6 +6,13 @@ body {
   align-content: center;
 }
 
+nav {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
 nav a {
   color: #777;
 }
@@ -69,4 +76,34 @@ main h2 {
   display: inline-block;
   text-align: justify;
   width: 45%;
+}
+
+.more-articles2 {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.more-articles2 h4 {
+  font-family: "Roboto Slab";
+}
+
+.more-articles2 p,
+.more-articles2 img {
+  width: 100%;
+}
+
+.more-articles2 section {
+  display: inline-block;
+  text-align: justify;
+  width: 45%;
+}
+
+footer {
+  background-color: white;
+  font-family: "Source Sans Pro";
+  text-align: center;
+  padding: 4px;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
 }
