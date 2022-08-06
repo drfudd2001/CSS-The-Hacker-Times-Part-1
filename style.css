@@ -1,109 +1,101 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap");
-body {
-  background-color: #eee;
-  font-family: "Source Sans Pro";
-  align-content: center;
+a {
+  text-decoration: none;
+  color: #777777;
 }
 
-nav {
-  background-color: white;
-  position: sticky;
-  top: 0;
-  left: 0;
+p {
+  text-align: justify;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
-nav a {
-  color: #777;
-}
-
-main {
-  color: black;
-}
-
-#first-img {
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
-.newspaper-container {
-  background-color: white;
-  box-shadow: #ddd;
+img {
   width: 700px;
-  padding: 30px;
-  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
+body {
+  font-family: Source Sans Pro, sans-serif;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 5em;
+  margin-right: 5em;
+  background-color: #EEEEEE;
+  font-size: 0.9em;
+}
+
+.newspaper-container {
+  background-color: #FFFFFF;
+  padding: 0.75em;
+  border-radius: 0.5em;
+  box-shadow: 10px 5px 5px #DD3232;
+  width: 700px;
+}
+
+header div {
+  color: #777777;
+}
 header h1 {
+  font-family: Abril Fatface, cursive;
+  font-size: 2.6em;
   text-align: center;
-  font-family: "Abril Fatface";
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-ul {
-  list-style-type: none;
-  border-top: solid black 1px;
-  border-bottom: solid black 1px;
+main h2, main h5 {
+  font-family: Roboto Slab, serif;
 }
-
-li {
-  display: inline-block;
-  padding: 4px;
-}
-
 main h2 {
-  font-family: "Roboto Slab";
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-#red {
-  color: red;
+main h5 {
+  color: #DD3232;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+section h4 {
+  font-family: Roboto Slab, serif;
+}
+
+nav, footer {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: inherit;
+  text-align: center;
+  font-size: 0.9em;
+}
+nav ul, footer ul {
+  border-top: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  padding: 0.5em;
+}
+nav li, footer li {
+  display: inline;
+  padding: 0.5em;
 }
 
 .more-articles {
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
+  border-top: 1px solid #777777;
 }
-
-.more-articles h4 {
-  font-family: "Roboto Slab";
-}
-
-.more-articles p,
-.more-articles img {
-  width: 100%;
-}
-
 .more-articles section {
   display: inline-block;
-  text-align: justify;
   width: 45%;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
-.more-articles2 {
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
+.bonus-articles {
+  border-top: 1px solid #EEEEEE;
 }
-
-.more-articles2 h4 {
-  font-family: "Roboto Slab";
-}
-
-.more-articles2 p,
-.more-articles2 img {
-  width: 100%;
-}
-
-.more-articles2 section {
+.bonus-articles section {
   display: inline-block;
-  text-align: justify;
-  width: 45%;
-}
-
-footer {
-  background-color: white;
-  font-family: "Source Sans Pro";
-  text-align: center;
-  padding: 4px;
-  border-top: solid black 1px;
-  border-bottom: solid black 1px;
-}
+  width: 28%;
+  margin-left: 1em;
+  margin-right: 1em;
+}/*# sourceMappingURL=style.css.map */
